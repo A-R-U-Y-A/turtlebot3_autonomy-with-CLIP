@@ -22,7 +22,7 @@ The first launch file 'office_exploration_launch.py', explore the environment an
 
 ## 🏗️ System Architecture
 
-**🎬 [ROS Node Graph](docs/ros_node.png)**
+![ros node](docs/ros_node.png)
 
 LIDAR + odometry → SLAM creates map → Detect the frontiers -> Navigation plans paths → Sends commands to robot → Use the pose data for semantic mapping.
 
@@ -176,7 +176,7 @@ ros2 topic echo /semantic_locations
 ## 🎥 Video Documentation
 
 ### Demo Videos
-**🎬 [Complete Autonomous Exploration Demo](docs/videos/exploration.mp4)** 
+![explore demo](docs/exploration.mp4)
 
 ## 👥 Credits
 
